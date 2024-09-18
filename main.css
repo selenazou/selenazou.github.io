@@ -1,5 +1,15 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #BF6C27;
-    color: white;
+}
+
+.content-container {
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem 1rem;
+}
+
+.no-margin {
+    margin: 0;
 }
