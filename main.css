@@ -50,7 +50,7 @@ body {
 }
 
 .nav-top .nav-link {
-    padding: 0;
+    padding: 0 0.3rem 0 0;
 }
 
 .nav-link {
@@ -71,8 +71,22 @@ body {
     padding: 1rem;
 }
 
+.scumm-link {
+    text-decoration: none;
+    color: #0f318c;
+    white-space: nowrap;
+}
+
+.scumm-link:hover {
+    color: gray;
+}
+
 .no-margin {
     margin: 0;
+}
+
+.half-margin {
+    margin: 0.5rem 0;
 }
 
 @media(min-width: 432px) {

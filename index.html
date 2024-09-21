@@ -11,7 +11,7 @@
         <div class="nav-background">
             <div class="nav-container">
                 <div class="nav-top">
-                    <a class="nav-link" href="">The 7<sup>th</sup>Revolution</a>
+                    <a class="nav-link" href="#">The 7<sup>th</sup>Revolution</a>
                     <button class="nav-toggle" onclick="HandleToggleNav()"><img src="assets/nav-toggle.svg" alt="Nav toggler"></button>
                 </div>
                 <div id="nav-links" class="nav-links">
@@ -21,24 +21,36 @@
             </div>
         </div>
         <div class="content-container">
-            <h1 class="no-margin">CISC 322/326 Course Project F24 - The 7<sup>th</sup> Revolution - ScummVM</h1>
+            <div id="project-info">
+                <h1 class="no-margin">The 7<sup>th</sup> Revolution</h1>
+                <h2 class="no-margin">CISC 322/326 Course Project F24 - ScummVM</h2>
 
-            <h4>Group Members: Selena Zou, Frankie Cao, Gavin Lacy, Michal Wrobel, Ayman Zaher, Aidan Tulk</h4>
-            <p>Course Instructor: Bram Adams</p>
-            <p>Group TA: TODO</p>
+                <p style="margin-top: 0.5rem;" class="no-margin">Course Instructor: Bram Adams</p>
+                <p class="no-margin">Group TA: TODO</p>
 
-            <h2>Project Abstract</h2>
-            <p>ScummVM is a program which provides support for users to play select adventure or role-playing
-                games on systems for which they were not designed. It is an open-source project. Further details can
-                be found on the project website: <a href="https://www.scummvm.org/">scummvm.org</a>.
-            </p>
-            <p>Over the course of this project, we will analyze ScummVM's documentation and implementation 
-                to understand its conceptual and concrete architecture.
-            </p>
+                <h3 class="half-margin">Project Abstract</h3>
+                <p class="half-margin">ScummVM is a program which provides support for users to play select adventure or role-playing
+                    games on systems for which they were not designed. It is an open-source project.
+                </p>
+                <p class="half-margin">Over the course of this project, we will analyze ScummVM's documentation and implementation 
+                    to understand its conceptual and concrete architecture.
+                </p>
 
-            <h3>ScummVM Documentation</h3>
-
-            <h3>Assignment Links</h3>
+                <h3 class="half-margin">ScummVM Links</h3>
+                <a class="scumm-link" href="https://www.scummvm.org">ScummVM Homepage</a>
+                <a class="scumm-link" href="https://docs.scummvm.org/">ScummVM Documentation</a>
+                <a class="scumm-link" href="https://wiki.scummvm.org/">ScummVM Wiki</a>
+                <a class="scumm-link" href="https://www.scummvm.org/compatibility/">ScummVM Compatability List</a>
+                <a class="scumm-link" href="https://github.com/scummvm/scummvm">ScummVM GitHub</a>
+            </div>
+            <div id="assignments">
+                <h3 class="half-margin">Assignments</h3>
+                <p class="half-margin">Comming soon...</p>
+            </div>
+            <div id="team">
+                <h3 class="half-margin">The Team</h3>
+                <p class="half-margin">Selena Zou, Frankie Cao, Gavin Lacy, Michal Wrobel, Ayman Zaher, Aidan Tulk</p>
+            </div>
         </div>
         <script>
             const navLinks = document.getElementById("nav-links");
