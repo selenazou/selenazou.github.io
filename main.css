@@ -77,6 +77,11 @@ body {
     white-space: nowrap;
 }
 
+.scumm-links {
+    display: flex;
+    flex-direction: column;
+}
+
 .scumm-link:hover {
     color: gray;
 }
